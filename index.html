@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/c3694ab3ad.js"></script>
+
+
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        @media(max-width:600px) {
+            body {
+                background: blueviolet;
+            }
+
+        }
+
+        .header1 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+            margin-top: 30px;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header1 {
+
+            font-size: 30px;
+        }
+
+        #full2 {
+            width: 65%;
+            height: 40vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+
+
+
+        .header2 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header2 {
+
+            font-size: 30px;
+        }
+
+        #full4 {
+            width: 65%;
+            height: 55vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+
+
+        .header3 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header3 {
+
+            font-size: 30px;
+        }
+
+        #full6 {
+            width: 65%;
+            height: 55vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+
+
+        .header4 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header4 {
+
+            font-size: 30px;
+        }
+
+        #full8 {
+            width: 65%;
+            height: 45vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+
+        .header5 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header5 {
+
+            font-size: 30px;
+        }
+
+        #full10 {
+            width: 65%;
+            height: 65vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+
+
+        .header6 {
+            width: 65%;
+            height: 40px;
+            margin-left: 25%;
+            background: black;
+            color: white;
+            padding-left: 30px;
+
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .header6 {
+
+            font-size: 30px;
+        }
+
+        #full12 {
+            width: 65%;
+            height: 45vh;
+            margin-left: 25%;
+            background: lightgray;
+            color: white;
+            padding-left: 30px;
+            padding-top: 20px;
+
+        }
+
+        #navbar {
+            margin-left: 50px;
+
+        }
+
+        a {
+            text-decoration: none;
+
+            line-height: 40px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <header> JAVASCRIPT </header>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title"></span>
+            <nav id="navbar" class="mdl-navigation">
+                <header> JAVASCRIPT </header>
+
+                <a class="nav-link" href="#Introduction">Introduction</a>
+
+                <a class="nav-link" class="mdl-navigation__link" href="#JS_Comment">JS Comment </a>
+
+                <a class="nav-link" class="mdl-navigation__link" href="#JS_Variable">JS Variable</a>
+
+                <a class="nav-link" class="mdl-navigation__link" href="#JS_Global_Variable">JS Global Variable</a>
+
+                <a class="nav-link" class="mdl-navigation__link" href="#JS_Operator">JS Operator</a>
+
+                <a class="nav-link" class="mdl-navigation__link" href="#JS_If_Statement">JS If Statement</a>
+            </nav>
+        </div>
+        <main id="main-doc" class="mdl-layout__content">
+            <div class="page-content">
+                <section class="main-section" id="Introduction">
+
+
+
+                    <header class="header1">Introduction</header>
+
+
+                    <div id="full2">
+                        <p>Our JavaScript Tutorial is designed for beginners and professionals both. JavaScript is
+                            used to
+                            create client-side dynamic pages.
+                            JavaScript is an object-based scripting language which is lightweight and
+                            cross-platform.
+                            JavaScript is not a compiled language, but it is a translated language. The JavaScript
+                            Translator (embedded in the browser) is responsible for translating the JavaScript code
+                            for the
+                            web browser.</p>
+                        <p>JavaScript is used to create interactive websites. It is mainly used for:<br>
+                            Client-side validation,<br>
+                            Dynamic drop-down menus,<br>
+                            Displaying date and time,<br>
+                            Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box
+                            and
+                            prompt dialog box),
+                            Displaying clocks etc.</p>
+
+                    </div>
+
+
+                </section>
+                <section class="main-section" id="JS_Comment">
+
+
+
+                    <header class="header2">JS Comment</header>
+
+
+                    <div id="full4">
+                        <p>The JavaScript comments are meaningful way to deliver message. It is used to add
+                            information
+                            about the code, warnings or suggestions so that end user can easily interpret the code.
+
+                            The JavaScript comment is ignored by the JavaScript engine i.e. embedded in the browser.
+                        </p>
+                        <p>There are mainly two advantages of JavaScript comments.
+                            To make code easy to understand It can be used to elaborate the code so that end user
+                            can easily
+                            understand the code.
+                            To avoid the unnecessary code It can also be used to avoid the code being executed.
+                            Sometimes,
+                            we add the code to perform some action. But after sometime, there may be need to disable
+                            the
+                            <p> code. In such case, it is better to use comments.</p>
+                            <code>
+                               <p> var a=10;</p>
+                               <p> var b=20;</p>
+                                <p>var c=a+b;//It adds values of a and b variable </p>
+                                <p>document.write(c);//prints sum of 10 and 20</p>
+                            </code>
+
+                    </div>
+
+
+                </section>
+
+
+                <section class="main-section" id="JS_Variable">
+
+
+
+                    <header class="header3">JS Variable</header>
+
+
+                    <div id="full6">
+                        <p>A JavaScript variable is simply a name of storage location. There are two types of
+                            variables in
+                            JavaScript : local variable and global variable.
+
+                            There are some rules while declaring a JavaScript variable (also known as identifiers).
+                        </p>
+                        <p> Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+                        </p>
+                        <p>After first letter we can use digits (0 to 9), for example value1.</p>
+                        <p> JavaScript variables are case sensitive, for example x and X are different variables.
+                        </p>
+                        <code>
+                            <p> var x = 10; </p>
+                            <p>var y = 20; </p>
+                            <p> var z=x+y; </p>
+                            <p>document.write(z);</p>
+                        </code>
+
+
+                    </div>
+
+
+                </section>
+
+                <section class="main-section" id="JS_Global_Variable">
+
+
+                    <header class="header4"> JS Global Variable</header>
+
+
+                    <div id="full8">
+                        <p>A JavaScript global variable is declared outside the function or declared with window
+                            object. It
+                            can be accessed from any function.
+
+                            Let’s see the simple example of global variable in JavaScript.</p>
+                        <code>
+                            <p>var value=50;//global variable </p>
+                            <p> function a(){ </p>
+                            <p> alert(value);</p>
+                            <p> }
+                                function b(){ </p>
+                            <p> alert(value);
+                                } </p>
+
+                            </code>
+
+                    </div>
+
+
+
+                </section>
+
+
+                <section class="main-section" id="JS_Operator">
+
+
+
+                    <header class="header5">JS Operator</header>
+
+
+                    <div id="full10">
+                        <p>There are following types of operators in JavaScript.</p>
+                        <p> Arithmetic Operators</p>
+                        <p> Comparison (Relational) Operators</p>
+                        <p> Bitwise Operators</p>
+                        <p>Logical Operators</p>
+                        <p> Assignment Operators</p>
+                        <p> Special Operator</p>
+                        <p>JavaScript operators are symbols that are used to perform operations on operands. For
+                            example:
+                        </p>
+                        <code>
+                    <p> var sum=10+20; </p>
+                </code>
+                        <p> Here, + is the arithmetic operator and = is the assignment operator.</p>
+
+                    </div>
+
+                </section>
+
+                <section class="main-section" id="JS_If_Statement">
+
+
+
+
+                    <header class="header6">JS If Statement </header>
+
+
+
+                    <div id="full12">
+                        <p>The JavaScript if-else statement is used to execute the code whether condition is true or
+                            false.
+                        </p>
+                        <p> There are three forms of if statement in JavaScript.</p>
+                        <li>
+                            <p> If Statement</p>
+                        </li>
+                        <li>
+                            <p> If else statement</p>
+                        </li>
+                        <li>
+                            <p> if else if statement</p>
+                        </li>
+                        <li>
+                            <p>It evaluates the content whether condition is true of false.</p>
+                        </li>
+                        <li>
+                            <p>The syntax of JavaScript if-else statement is given below.</p>
+                        </li>
+                        <code>
+                    <p>if(expression){</p>
+                    <p>//content to be evaluated if condition is true
+                        } </p>
+                    <p>else{
+                        //content to be evaluated if condition is false
+                        } </p>
+
+                    </code>
+
+                    </div>
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </main>
+    </div>
+
+
+
+
+</body>
+
+</html>
